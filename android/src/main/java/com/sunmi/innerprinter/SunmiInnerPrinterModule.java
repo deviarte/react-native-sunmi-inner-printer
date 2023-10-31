@@ -175,30 +175,25 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                   
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                            
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                           
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -221,30 +216,25 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                        
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                     
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                        
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -340,11 +330,7 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                
                         }
 
                         @Override
@@ -358,7 +344,6 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
                     Log.i(TAG, "ERROR: " + e.getMessage());
                     p.reject("" + 0, e.getMessage());
                 }
@@ -389,30 +374,25 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+               
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                        
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+           
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -437,30 +417,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                        
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                          
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+               
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+           
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -485,30 +462,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                       
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                        
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                         
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+  
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+             
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -533,30 +507,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                 
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                      
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                          
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+          
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+      
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -583,30 +554,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                   
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                          
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                      
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+      
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+               
                 }
             }
         });
+        p.resolve(null);
     }
 
 
@@ -635,30 +603,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                  
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                       
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                         
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+     
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+              
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -696,30 +661,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                  
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                        
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                  
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+   
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+        
                 }
             }
         });
+        p.resolve(null);
     }
 
 
@@ -746,34 +708,30 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                             @Override
                             public void onRunResult(boolean isSuccess) {
-                                if (isSuccess) {
-                                    p.resolve(null);
-                                } else {
-                                    p.reject("0", isSuccess + "");
-                                }
+                       
                             }
 
                             @Override
                             public void onReturnString(String result) {
-                                p.resolve(result);
+                                
                             }
 
                             @Override
                             public void onRaiseException(int code, String msg) {
-                                p.reject("" + code, msg);
+                       
                             }
                         });
                     } catch (Exception e) {
-                        e.printStackTrace();
+             
                         Log.i(TAG, "ERROR: " + e.getMessage());
-                        p.reject("" + 0, e.getMessage());
+                
                     }
                 }
             });
         } catch (Exception e) {
-            e.printStackTrace();
             Log.i(TAG, "ERROR: " + e.getMessage());
         }
+        p.resolve(null);
     }
 
     /**
@@ -816,30 +774,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                        
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                   
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                 
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+           
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+    
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -872,30 +827,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                       
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                     
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                          
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+                 
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+          
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -921,30 +873,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                  
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                       
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                     
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+            
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+       
                 }
             }
         });
+        p.resolve(null);
     }
 
     /**
@@ -1031,30 +980,27 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void onRunResult(boolean isSuccess) {
-                            if (isSuccess) {
-                                p.resolve(null);
-                            } else {
-                                p.reject("0", isSuccess + "");
-                            }
+                      
                         }
 
                         @Override
                         public void onReturnString(String result) {
-                            p.resolve(result);
+                       
                         }
 
                         @Override
                         public void onRaiseException(int code, String msg) {
-                            p.reject("" + code, msg);
+                        
                         }
                     });
                 } catch (Exception e) {
-                    e.printStackTrace();
+          
                     Log.i(TAG, "ERROR: " + e.getMessage());
-                    p.reject("" + 0, e.getMessage());
+             
                 }
             }
         });
+                    p.resolve(null);
     }
 
     @ReactMethod
